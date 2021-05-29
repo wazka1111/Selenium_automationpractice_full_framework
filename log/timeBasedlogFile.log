@@ -1,0 +1,40 @@
+348 [main] DEBUG c.configuration.EnvironmentProperty - >>>>>>> Environment name : env_int
+348 [main] DEBUG c.configuration.EnvironmentProperty - >>>>>>> Environment name : env_int
+383 [main] DEBUG c.configuration.EnvironmentProperty - #### Loading property from uri file:/C:/Users/DH/IdeaProjects/siiframework/target/classes/env_int
+383 [main] DEBUG c.configuration.EnvironmentProperty - #### Loading property from uri file:/C:/Users/DH/IdeaProjects/siiframework/target/classes/env_int
+386 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property password = seleniumsii 
+386 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property password = seleniumsii 
+388 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property env_name = int 
+388 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property env_name = int 
+388 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property accountName = Godiwn Gilbert 
+388 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property accountName = Godiwn Gilbert 
+389 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property eTitle = My Store 
+389 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property eTitle = My Store 
+389 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property appUrl = http://automationpractice.com/index.php 
+389 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property appUrl = http://automationpractice.com/index.php 
+390 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property login = Godwin2222@o2.pl 
+390 [main] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property login = Godwin2222@o2.pl 
+391 [main] DEBUG c.configuration.EnvironmentProperty - #### Properties loaded from env_int : 6 
+391 [main] DEBUG c.configuration.EnvironmentProperty - #### Properties loaded from env_int : 6 
+1611 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=90 in cache (valid until 20:14:51 29/05/2021 CEST)
+1614 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome90=90.0.4430.24 in cache (valid until 12:29:40 30/05/2021 CEST)
+1617 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+1624 [main] TRACE i.g.b.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
+1645 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\DH\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe, C:\Users\DH\.cache\selenium\resolution.properties] -- output list [C:\Users\DH\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe] 
+1645 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by 90.0.4430.24 -- input list [C:\Users\DH\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe] -- output list [C:\Users\DH\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe] 
+1645 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\DH\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe] -- output list [C:\Users\DH\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe] 
+1646 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 90.0.4430.24 found in cache
+1648 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DH\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+9161 [main] DEBUG com.basePage.PageFactory - Creating page object: MainPage
+9161 [main] DEBUG com.basePage.PageFactory - Creating page object: MainPage
+9195 [main] DEBUG TestBase.class - Driver initialized
+9216 [main] INFO  SeleniumTest.class - >>>> Start test >>>>>
+9217 [main] INFO  com.pages.MainPage - Go to 'Sign in' page
+9217 [main] INFO  com.pages.MainPage - Go to 'Sign in' page
+17086 [main] DEBUG com.basePage.PageFactory - Creating page object: LoginPage
+17086 [main] DEBUG com.basePage.PageFactory - Creating page object: LoginPage
+20352 [main] DEBUG com.basePage.PageFactory - Creating page object: AccountPage
+20352 [main] DEBUG com.basePage.PageFactory - Creating page object: AccountPage
+20415 [main] DEBUG com.pages.AccountPage - Account name :Godiwn Gilbert
+20415 [main] DEBUG com.pages.AccountPage - Account name :Godiwn Gilbert
+21270 [main] DEBUG TestBase.class - Driver closed
