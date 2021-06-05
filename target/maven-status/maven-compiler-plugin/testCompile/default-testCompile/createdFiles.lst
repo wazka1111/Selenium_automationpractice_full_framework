@@ -1,0 +1,7 @@
+com\baseTest\TestBase.class
+com\tests\SeleniumTest.class
+com\configuration\EnvironmentProperty$EnvironmentPropertySingleton.class
+com\configuration\BrowserEnvironment.class
+com\configuration\PropertyStore.class
+com\configuration\WebListener.class
+com\configuration\EnvironmentProperty.class

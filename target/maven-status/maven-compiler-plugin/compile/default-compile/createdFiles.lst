@@ -1,0 +1,5 @@
+com\pages\LoginPage.class
+com\pages\AccountPage.class
+com\basePage\BasePage.class
+com\pages\MainPage.class
+com\basePage\PageFactory.class
