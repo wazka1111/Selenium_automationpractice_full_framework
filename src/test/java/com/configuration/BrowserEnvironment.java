@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,7 +21,9 @@ public class BrowserEnvironment{
     private int webBrowserImplicitTimeOut;
     private boolean attachScreenShot;
     private Logger logger;
-    private WebDriver driver;
+    private WebDriver webdriver;
+
+    private EventFiringWebDriver driver;
 
     public BrowserEnvironment() {
         this.headlessBrowser = false;
@@ -65,27 +68,37 @@ public class BrowserEnvironment{
     }
 
     public WebDriver getDriver() {
-        WebDriver driver;
+                                      //listener
+        WebListener webListener;                                    //listener
         switch (this.browserName) {
             case "chrome":
                 ChromeOptions optionsChrome = new ChromeOptions();
                 WebDriverManager.chromedriver().setup();
                 optionsChrome.addArguments("start-maximized");
-                driver = new ChromeDriver(optionsChrome);
+                webdriver = new ChromeDriver(optionsChrome);          //listener
+                driver = new EventFiringWebDriver(webdriver);         // listener
+                webListener = new WebListener();                     //listener
+                driver.register(webListener);                         //listener
                 driver.get(System.getProperty("appUrl"));
                 break;
             case "firefox":
                 FirefoxOptions optionsFirefox = new FirefoxOptions();
-                WebDriverManager.firefoxdriver().setup();
+                WebDriverManager.chromedriver().setup();
                 optionsFirefox.addArguments("start-maximized");
-                driver = new FirefoxDriver(optionsFirefox);
-                driver.get(System.getProperty("appUrl"));
+                webdriver = new FirefoxDriver(optionsFirefox);          //listener
+                driver = new EventFiringWebDriver(webdriver);         // listener
+                webListener = new WebListener();                     //listener
+                driver.register(webListener);                         //listener
+                webdriver.get(System.getProperty("appUrl"));
                 break;
             default:
                 InternetExplorerOptions optionsdefault = new InternetExplorerOptions();
                 WebDriverManager.iedriver().setup();
-                driver = new InternetExplorerDriver(optionsdefault);
-                driver.get(System.getProperty("appUrl"));
+                webdriver = new InternetExplorerDriver(optionsdefault);
+                driver = new EventFiringWebDriver(webdriver);         // listener
+                webListener = new WebListener();                     //listener
+                driver.register(webListener);                         //listener
+                webdriver.get(System.getProperty("appUrl"));
         }
         this.driver=driver;
         return this.driver;

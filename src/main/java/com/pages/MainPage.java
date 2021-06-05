@@ -22,7 +22,8 @@ public class MainPage extends BasePage {
 
     public LoginPage signInClick() {
         logger.info("Go to 'Sign in' page");
-        signInLink.click();
+        clickObject(signInLink);
+        //signInLink.click();
         return pageFactory.create(LoginPage.class);
     }
 }

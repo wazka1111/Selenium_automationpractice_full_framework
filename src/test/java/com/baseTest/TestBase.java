@@ -29,24 +29,24 @@ public class TestBase extends BasePage {
     static void setUp() {
         environmentProperty = EnvironmentProperty.getInstance();
         browserEnvironment = new BrowserEnvironment();
+
+
+    }
+
+    @BeforeEach
+    void beforeEach() throws IOException {
         driver = browserEnvironment.getDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         basePage = new BasePage(driver);
         mainPage =  pageFactory.create(MainPage.class);
         logger.debug("Driver initialized");
 
     }
 
-    @BeforeEach
-    void beforeEach() throws IOException {
-
-
-        System.out.println("ok");
-    }
-
-    @AfterAll
-    static void tearDown() {
+    @AfterEach
+     void tearDown() {
         driver.quit();
         logger.debug("Driver closed");
     }
+
 }

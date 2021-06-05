@@ -23,7 +23,8 @@ public class LoginPage extends BasePage {
     public AccountPage login() {
         email.sendKeys(System.getProperty("login"));
         password.sendKeys(System.getProperty("password"));
-        btn_submit.click();
+        clickObject(btn_submit);
+        //btn_submit.click();
         return pageFactory.create(AccountPage.class);
     }
 
