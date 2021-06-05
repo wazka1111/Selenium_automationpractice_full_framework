@@ -1,6 +1,7 @@
 package com.configuration;
 
 import com.basePage.BasePage;
+import com.basePage.WebListener;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.jsoup.Connection;
 import org.openqa.selenium.WebDriver;
@@ -22,8 +23,13 @@ public class BrowserEnvironment{
     private boolean attachScreenShot;
     private Logger logger;
     private WebDriver webdriver;
+    WebListener webListener;                      //listener
 
     private EventFiringWebDriver driver;
+
+    public WebListener getWebListener() {
+        return this.webListener;
+    }
 
     public BrowserEnvironment() {
         this.headlessBrowser = false;
@@ -69,7 +75,7 @@ public class BrowserEnvironment{
 
     public WebDriver getDriver() {
                                       //listener
-        WebListener webListener;                                    //listener
+
         switch (this.browserName) {
             case "chrome":
                 ChromeOptions optionsChrome = new ChromeOptions();

@@ -26,6 +26,7 @@ public class SeleniumTest extends TestBase {
     public void automationPracticePurchase1() {
         logger.info(">>>> Start test >>>>>");
 
+
         String accountName = mainPage.signInClick()
                 .login()
                 .getAccountName();
@@ -35,6 +36,28 @@ public class SeleniumTest extends TestBase {
 
 
     }
+    @Test
+    @DisplayName("AutomationPractice")
+    @Tag("Purchase")
+    public void mouseMove() {
+        logger.info(">>>> Start test  >>>>>");
+        mainPage.mouseHoverWoman()
+        .mouseHoverdress().
+                mouseHovertshirt();
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
     @Test
     @DisplayName("AutomationPractice")
     @Tag("Purchase")

@@ -3,9 +3,7 @@ package com.baseTest;
 import com.basePage.BasePage;
 import com.configuration.BrowserEnvironment;
 import com.configuration.EnvironmentProperty;
-import com.pages.LoginPage;
 import com.pages.MainPage;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -23,6 +21,7 @@ public class TestBase extends BasePage {
     public static EnvironmentProperty environmentProperty;
     public static BasePage basePage;
     public static MainPage mainPage;
+
 
 
     @BeforeAll
