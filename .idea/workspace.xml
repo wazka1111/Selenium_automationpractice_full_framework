@@ -22,26 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54c57057-f76c-4694-8822-bd7b0e93c555" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/BaseYamlReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/JacksonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/JamlClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/NullSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/YamlReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/model/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/model/ConfigModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/model/EnvironmentModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/model/JamlEnv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/model/PostgresModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/configuration/BrowserEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/configuration/BrowserEnvironment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/SeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/configuration/BrowserEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/configuration/BrowserEnvironment.class" afterDir="false" />
-    </list>
+    <list default="true" id="54c57057-f76c-4694-8822-bd7b0e93c555" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622904366094</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add yaml configuration">
+      <created>1623312786204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623312786204</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +218,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add eventlistener" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add eventlistener" />
+    <MESSAGE value="Add yaml configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add yaml configuration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="70" width="1089" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622788189020">
@@ -300,10 +289,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622904381201" />
-    <state x="-98" y="250" width="1116" height="553" key="dock-window-1" timestamp="1623247497411">
+    <state x="-98" y="250" width="1116" height="553" maximized="true" key="dock-window-1" timestamp="1623312791552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-98" y="250" width="1116" height="553" key="dock-window-1/0.0.1536.824/-1600.0.1600.860@0.0.1536.824" timestamp="1623247497411" />
+    <state x="-98" y="250" width="1116" height="553" maximized="true" key="dock-window-1/0.0.1536.824/-1600.0.1600.860@0.0.1536.824" timestamp="1623312791552" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1623230335539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
