@@ -45,9 +45,6 @@ public class SeleniumTest extends TestBase {
         .mouseHoverdress().
                 mouseHovertshirt();
 
-
-
-
     }
 
 

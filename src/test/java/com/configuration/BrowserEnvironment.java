@@ -2,6 +2,7 @@ package com.configuration;
 
 import com.basePage.BasePage;
 import com.basePage.WebListener;
+import com.configuration.yaml.YamlReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.jsoup.Connection;
 import org.openqa.selenium.WebDriver;
@@ -26,6 +27,8 @@ public class BrowserEnvironment{
     WebListener webListener;                      //listener
 
     private EventFiringWebDriver driver;
+
+    private YamlReader yamlReader;
 
     public WebListener getWebListener() {
         return this.webListener;
@@ -84,7 +87,9 @@ public class BrowserEnvironment{
                 webdriver = new ChromeDriver(optionsChrome);          //listener
                 driver = new EventFiringWebDriver(webdriver);         // listener
                 webListener = new WebListener();                     //listener
-                driver.register(webListener);                         //listener
+                driver.register(webListener);  //listener
+                yamlReader = new YamlReader();
+                String url = yamlReader.getEnvConfig().getEnvironment().getTest().getUrl();
                 driver.get(System.getProperty("appUrl"));
                 break;
             case "firefox":

@@ -1,25 +1,2 @@
-8396 [ForkJoinPool-1-worker-3] INFO  com.basePage.WebListener - >>>>>>>>>>>>>>>>>>>>>>>>Event listener afterNavigateTo>>>>>>>>>>>>>>>>http://automationpractice.com/index.php
-8396 [ForkJoinPool-1-worker-3] INFO  com.basePage.WebListener - >>>>>>>>>>>>>>>>>>>>>>>>Event listener afterNavigateTo>>>>>>>>>>>>>>>>http://automationpractice.com/index.php
-8457 [ForkJoinPool-1-worker-3] DEBUG com.basePage.PageFactory - Creating page object: MainPage
-8457 [ForkJoinPool-1-worker-3] DEBUG com.basePage.PageFactory - Creating page object: MainPage
-8516 [ForkJoinPool-1-worker-3] DEBUG TestBase.class - Driver initialized
-8524 [ForkJoinPool-1-worker-3] INFO  SeleniumTest.class - >>>> Start test  >>>>>
-8524 [ForkJoinPool-1-worker-3] INFO  com.pages.MainPage - Mouse hover on Woman link
-8524 [ForkJoinPool-1-worker-3] INFO  com.pages.MainPage - Mouse hover on Woman link
-8641 [ForkJoinPool-1-worker-3] DEBUG com.basePage.BasePage - mouseHover perform on the object: WOMEN
-8641 [ForkJoinPool-1-worker-3] DEBUG com.basePage.BasePage - mouseHover perform on the object: WOMEN
-12030 [ForkJoinPool-1-worker-3] DEBUG com.basePage.PageFactory - Creating page object: MainPage
-12030 [ForkJoinPool-1-worker-3] DEBUG com.basePage.PageFactory - Creating page object: MainPage
-12031 [ForkJoinPool-1-worker-3] INFO  com.pages.MainPage - Mouse hover on Dress link
-12031 [ForkJoinPool-1-worker-3] INFO  com.pages.MainPage - Mouse hover on Dress link
-12092 [ForkJoinPool-1-worker-3] DEBUG com.basePage.BasePage - mouseHover perform on the object: DRESSES
-12092 [ForkJoinPool-1-worker-3] DEBUG com.basePage.BasePage - mouseHover perform on the object: DRESSES
-15358 [ForkJoinPool-1-worker-3] DEBUG com.basePage.PageFactory - Creating page object: MainPage
-15358 [ForkJoinPool-1-worker-3] DEBUG com.basePage.PageFactory - Creating page object: MainPage
-15360 [ForkJoinPool-1-worker-3] INFO  com.pages.MainPage - Mouse hover on Tshirt link
-15360 [ForkJoinPool-1-worker-3] INFO  com.pages.MainPage - Mouse hover on Tshirt link
-15409 [ForkJoinPool-1-worker-3] DEBUG com.basePage.BasePage - mouseHover perform on the object: T-SHIRTS
-15409 [ForkJoinPool-1-worker-3] DEBUG com.basePage.BasePage - mouseHover perform on the object: T-SHIRTS
-18673 [ForkJoinPool-1-worker-3] DEBUG com.basePage.PageFactory - Creating page object: MainPage
-18673 [ForkJoinPool-1-worker-3] DEBUG com.basePage.PageFactory - Creating page object: MainPage
-19408 [ForkJoinPool-1-worker-3] DEBUG TestBase.class - Driver closed
+220589 [ForkJoinPool-1-worker-3] INFO  com.basePage.WebListener - >>>>>>>>>>>>>>>>>>>>>>>>Event listener beforeNavigateTo>>>>>>>>>>>>>>>>
+220589 [ForkJoinPool-1-worker-3] INFO  com.basePage.WebListener - >>>>>>>>>>>>>>>>>>>>>>>>Event listener beforeNavigateTo>>>>>>>>>>>>>>>>
