@@ -22,7 +22,7 @@ public class SeleniumTest extends TestBase {
 
     @Test
     @DisplayName("AutomationPractice")
-    @Tag("Purchase")
+    @Tag("darek")
     public void automationPracticePurchase1() {
         logger.info(">>>> Start test >>>>>");
 
