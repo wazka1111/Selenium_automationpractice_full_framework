@@ -1,2 +1,41 @@
-220589 [ForkJoinPool-1-worker-3] INFO  com.basePage.WebListener - >>>>>>>>>>>>>>>>>>>>>>>>Event listener beforeNavigateTo>>>>>>>>>>>>>>>>
-220589 [ForkJoinPool-1-worker-3] INFO  com.basePage.WebListener - >>>>>>>>>>>>>>>>>>>>>>>>Event listener beforeNavigateTo>>>>>>>>>>>>>>>>
+147 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - >>>>>>> Environment name : env_int
+147 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - >>>>>>> Environment name : env_int
+154 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - #### Loading property from uri file:/C:/Users/dhryciuk/Desktop/Szkolka_selenium/Selenium_automationpractice_full_framework/target/classes/env_int
+154 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - #### Loading property from uri file:/C:/Users/dhryciuk/Desktop/Szkolka_selenium/Selenium_automationpractice_full_framework/target/classes/env_int
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property password = seleniumsii 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property password = seleniumsii 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property env_name = int 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property env_name = int 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property accountName = Godiwn Gilbert 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property accountName = Godiwn Gilbert 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property eTitle = My Store 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property eTitle = My Store 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property appUrl = http://automationpractice.com/index.php 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property appUrl = http://automationpractice.com/index.php 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property login = Godwin2222@o2.pl 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - ****Loading environment property login = Godwin2222@o2.pl 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - #### Properties loaded from env_int : 6 
+157 [ForkJoinPool-1-worker-3] DEBUG c.configuration.EnvironmentProperty - #### Properties loaded from env_int : 6 
+379 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment property: url = http://INT-automationpractice.com/index.php
+379 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment property: url = http://INT-automationpractice.com/index.php
+380 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment property: eTitle = My Store
+380 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment property: eTitle = My Store
+380 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment property: login = BradBitt2222@o2.pl
+380 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment property: login = BradBitt2222@o2.pl
+380 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment property: password = seleniumsii
+380 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment property: password = seleniumsii
+380 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment property: accountName = Brad Pitt
+380 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment property: accountName = Brad Pitt
+380 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment properties total: 5
+380 [ForkJoinPool-1-worker-3] INFO  c.c.yaml.YamlConfigControler - Loaded environment properties total: 5
+900 [ForkJoinPool-1-worker-3] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:27:39 21/12/2021 CET)
+901 [ForkJoinPool-1-worker-3] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 15:53:08 21/12/2021 CET)
+902 [ForkJoinPool-1-worker-3] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+904 [ForkJoinPool-1-worker-3] TRACE i.g.b.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
+914 [ForkJoinPool-1-worker-3] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe, C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\95.0.4638.69\chromedriver.exe, C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe, C:\Users\dhryciuk\.cache\selenium\geckodriver\win64\0.26.0\geckodriver.exe, C:\Users\dhryciuk\.cache\selenium\geckodriver\win64\0.29.1\geckodriver.exe, C:\Users\dhryciuk\.cache\selenium\resolution.properties] -- output list [C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe, C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\95.0.4638.69\chromedriver.exe, C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe] 
+914 [ForkJoinPool-1-worker-3] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by 96.0.4664.45 -- input list [C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe, C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\95.0.4638.69\chromedriver.exe, C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe] -- output list [C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe] 
+914 [ForkJoinPool-1-worker-3] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe] -- output list [C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe] 
+914 [ForkJoinPool-1-worker-3] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+915 [ForkJoinPool-1-worker-3] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhryciuk\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2258 [ForkJoinPool-1-worker-3] INFO  com.basePage.WebListener - >>>>>>>>>>>>>>>>>>>>>>>>Event listener beforeNavigateTo>>>>>>>>>>>>>>>>
+2258 [ForkJoinPool-1-worker-3] INFO  com.basePage.WebListener - >>>>>>>>>>>>>>>>>>>>>>>>Event listener beforeNavigateTo>>>>>>>>>>>>>>>>

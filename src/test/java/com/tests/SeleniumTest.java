@@ -31,7 +31,7 @@ public class SeleniumTest extends TestBase {
                 .login()
                 .getAccountName();
         AccountPage accountPage = pageFactory.create(AccountPage.class);
-        assertThat(accountName, equalTo(System.getProperty("accountName")));
+        assertThat("Error", accountName, equalTo(System.getProperty("accountName")));
         accountPage.logOut();
 
 

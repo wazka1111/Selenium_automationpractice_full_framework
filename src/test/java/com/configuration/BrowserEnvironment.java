@@ -88,9 +88,9 @@ public class BrowserEnvironment{
                 driver = new EventFiringWebDriver(webdriver);         // listener
                 webListener = new WebListener();                     //listener
                 driver.register(webListener);  //listener
-                yamlReader = new YamlReader();
-                String url = yamlReader.getEnvConfig().getEnvironment().getTest().getUrl();
-                driver.get(System.getProperty("appUrl"));
+               // yamlReader = new YamlReader();
+               // String url = yamlReader.getEnvConfig().getEnvironment().getTest().getUrl();
+                driver.get(System.getProperty("url"));
                 break;
             case "firefox":
                 FirefoxOptions optionsFirefox = new FirefoxOptions();

@@ -3,6 +3,7 @@ package com.baseTest;
 import com.basePage.BasePage;
 import com.configuration.BrowserEnvironment;
 import com.configuration.EnvironmentProperty;
+import com.configuration.yaml.YamlConfigControler;
 import com.pages.MainPage;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -19,6 +20,7 @@ public class TestBase extends BasePage {
     private static Logger logger = LoggerFactory.getLogger("TestBase.class");
     private static BrowserEnvironment browserEnvironment;
     public static EnvironmentProperty environmentProperty;
+    private static YamlConfigControler controler;
     public static BasePage basePage;
     public static MainPage mainPage;
 
@@ -28,7 +30,7 @@ public class TestBase extends BasePage {
     static void setUp() {
         environmentProperty = EnvironmentProperty.getInstance();
         browserEnvironment = new BrowserEnvironment();
-
+        controler = new YamlConfigControler();
 
     }
 

@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="siiframework" />
         <module name="sii.framework" />
+        <module name="Selenium_automationpractice_full_framework" />
       </profile>
     </annotationProcessing>
   </component>
