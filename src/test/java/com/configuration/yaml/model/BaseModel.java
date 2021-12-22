@@ -17,12 +17,12 @@ public class BaseModel {
         return active;
     }
 
-    @JsonAnySetter
+    @JsonAnySetter  //https://www.concretepage.com/jackson-api/jackson-jsonanygetter-and-jsonanysetter-example
     void setProperties(String key, Object value) {
         properties.put(key, value);
     }
 
-    @JsonAnyGetter
+    @JsonAnyGetter  //https://www.concretepage.com/jackson-api/jackson-jsonanygetter-and-jsonanysetter-example
     public Map<String, Object> getProperties() {
         return properties;
     }

@@ -22,30 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54c57057-f76c-4694-8822-bd7b0e93c555" name="Default Changelist" comment="Add yaml configuration">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/YamlConfigControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/timeBasedlogFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/timeBasedlogFile.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/baseTest/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/baseTest/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/configuration/BrowserEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/configuration/BrowserEnvironment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/JamlClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/JamlClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/model/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/model/BaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/model/EnvironmentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/model/EnvironmentModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/configuration/yaml/model/JamlEnv.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/SeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/baseTest/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/baseTest/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/configuration/BrowserEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/configuration/BrowserEnvironment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/configuration/yaml/JamlClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/configuration/yaml/model/BaseModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/configuration/yaml/model/BaseModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/configuration/yaml/model/EnvironmentModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/configuration/yaml/model/EnvironmentModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/configuration/yaml/model/JamlEnv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/SeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tests/SeleniumTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="54c57057-f76c-4694-8822-bd7b0e93c555" name="Default Changelist" comment="Add new yaml configuration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623312786204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add new yaml configuration">
+      <created>1640172006616</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640172006616</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +253,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add eventlistener" />
     <MESSAGE value="Add yaml configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add yaml configuration" />
+    <MESSAGE value="Add new yaml configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new yaml configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
